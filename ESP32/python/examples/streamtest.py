@@ -51,7 +51,7 @@ def update():
 
 
 ########### Main Program ############
-
+# python3 streamtest.py --ip 192.168.4.1
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 

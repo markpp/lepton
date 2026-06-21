@@ -10,6 +10,8 @@
 import argparse
 import array
 import base64
+import matplotlib
+matplotlib.use("TkAgg")   # or "GTK3Agg", "QtAgg", etc.
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
@@ -25,6 +27,7 @@ parser.add_argument("-i", "--ip", help="IP address of the camera")
 parser.add_argument("-p", "--pl", help="matplotlib image palette name")
 
 
+# python3 disp_image.py --ip 192.168.4.1
 if __name__ == "__main__":
 
     #
